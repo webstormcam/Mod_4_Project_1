@@ -36,10 +36,10 @@ strong{
 }
 
 a{
-    text-decoration: none;
+    color: #ffe600;
 }
 
-a span{
-    border-bottom: 1px solid yellow;
-    
+a:hover,a:focus{
+    color: aqua;
 }
+
