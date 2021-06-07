@@ -25,3 +25,21 @@ p{
     font-size: 18px;
     
 }
+
+strong{
+    
+    color: #fff;
+}
+
+.yellow{
+    color: yellow;
+}
+
+a{
+    text-decoration: none;
+}
+
+a span{
+    border-bottom: 1px solid yellow;
+    
+}
