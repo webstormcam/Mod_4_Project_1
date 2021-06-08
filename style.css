@@ -39,6 +39,18 @@ a{
     color: #ffe600;
 }
 
+.button{
+    background: #ffe600;
+    padding: 20px;
+    color: black;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.button:hover{
+background-color: red;
+}
+
 a:hover,a:focus{
     color: aqua;
 }
