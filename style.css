@@ -1,6 +1,17 @@
+body{
+    margin: 0px;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
 h1,p{
     margin-top: 0;
 }
+
+
 
 
 .card{
@@ -9,8 +20,11 @@ h1,p{
     width: 560px;
     margin-left: auto;
     margin-right: auto;
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
 }
+
+
 
 h1{
     font-size: 24px;
@@ -41,10 +55,11 @@ a{
 
 .button{
     background: #ffe600;
-    padding: 20px;
+    padding: 15px 30px;
     color: black;
     display: inline-block;
     margin-right: 25px;
+    text-decoration: none;
 }
 
 .button:hover{
@@ -53,5 +68,40 @@ background-color: red;
 
 a:hover,a:focus{
     color: aqua;
+}
+
+
+#part1{
+    background-color: #ffe600;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+
+
+#part2{
+    padding: 24px;
+}
+
+#part3{
+    background-color: #fff;
+    color: grey;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#part3 h2{
+    color: black;
+}
+
+#part3 .button{
+    background-color: black;
+    color: yellow;
+}
+
+#part3 .button:hover{
+    background-color: green;
 }
 
